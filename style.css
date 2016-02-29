@@ -1,0 +1,38 @@
+body {
+    background-color: #1a3d21;
+}
+.id, .sqft, .cost-per, .butDiv{
+    position: relative;
+    display: inline-block;
+    margin: auto 2%;
+    flex: 1;
+
+}
+/*.butDiv {
+    display: inline-block;
+    margin-right: 20%;
+}*/
+.create {
+    margin: 0 22%;
+}
+.container {
+    margin: 0 22%;
+    width: 56%;
+}
+.create, .remove {
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #1a3d21;
+    border-radius: 17px;
+    font-size: 16px;
+    color: #1a3d21;
+
+}
+.property {
+    height: 55px;
+    background-color: #012409;
+    color: white;
+    font: 20px/22px sans-serif;
+    column-count: 4;
+    display: flex;
+}
